@@ -1,4 +1,4 @@
-# Install With OpenClaw
+# Install With Hermes
 
 Follow this in order.
 
@@ -39,7 +39,7 @@ Optional additional values if you use more calendars:
 
 ## 2. Install the skills
 
-Copy these directories into `~/.openclaw/skills/`:
+Copy these directories into `~/.hermes/skills/`:
 
 - `skills/executive-assistant`
 - `skills/business-development`
@@ -48,16 +48,16 @@ Copy these directories into `~/.openclaw/skills/`:
 
 ## 3. Install the workspace files
 
-Copy these into `~/.openclaw/workspace/`:
+Copy these into `~/.hermes/workspace/`:
 
-- `clawchief/`
+- `hermes-exec/`
 - `workspace/HEARTBEAT.md`
 - `workspace/TOOLS.md`
 - `workspace/memory/meeting-notes-state.json`
 
 Note:
 - `workspace/tasks/current.md` is included only as a deprecation note for older installs
-- the live task source of truth is now `clawchief/tasks.md`
+- the live task source of truth is now `hermes-exec/tasks.md`
 
 ## 4. Add your private workspace files
 
@@ -95,8 +95,8 @@ Minimum search list:
 Then customize these files for your real workflow:
 
 - `workspace/TOOLS.md`
-- `clawchief/priority-map.md`
-- `clawchief/tasks.md`
+- `hermes-exec/priority-map.md`
+- `hermes-exec/tasks.md`
 - `skills/business-development/resources/partners.md`
 - `cron/jobs.template.json`
 
